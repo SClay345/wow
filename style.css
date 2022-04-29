@@ -1,0 +1,43 @@
+
+body {
+    font-family: 'Tapestry', cursive;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    background-image: url(./owen-wilson-loki.jpg);
+    text-shadow:
+    0.05em 0 black,
+    0 0.05em black,
+    -0.05em 0 black,
+    0 -0.05em black,
+    -0.05em -0.05em black,
+    -0.05em 0.05em black,
+    0.05em -0.05em black,
+    0.05em 0.05em black;
+}
+
+section {
+    margin-top: 3%;
+   width: 80vh;
+    height: 80vh;
+    position: relative;
+    
+    
+}
+
+img {
+    width: 40%;
+}
+span {
+    text-shadow: 2px 2px #ff0000;
+    font-size: larger;
+}
+p{
+    font-size: 1.5em;
+}
+h3 {
+    font-size: 2em;
+}
